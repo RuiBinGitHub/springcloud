@@ -10,6 +10,7 @@ public class User implements Serializable {
     private String name;
     private String username;
     private String password;
+    private String role;
     private String date;
 
     public int getId() {
@@ -42,6 +43,14 @@ public class User implements Serializable {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
     }
 
     public String getDate() {
