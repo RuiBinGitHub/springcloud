@@ -26,6 +26,6 @@ public class UserBizImpl implements UserBiz {
         user.setUsername("100001");
         user.setPassword("123456");
         user.setDate("2018-05-06");
-        return null;
+        return user;
     }
 }

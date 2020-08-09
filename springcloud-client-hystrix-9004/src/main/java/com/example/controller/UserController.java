@@ -17,7 +17,7 @@ public class UserController {
 
     @RequestMapping(value = "/findinfo/{id}")
     public User findInfo(@PathVariable(value = "id") int id) {
-        return userBiz.findInfoUser(id);
+        return userBiz.findInfo(id);
     }
 
 }
